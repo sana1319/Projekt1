@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Main{
++main(): void
+}
+
+class Rectangle{
++drawRectangle(): void
+}
+class Triangle{
++drawTriangle(): void
+}
+
+Main *-- Rectangle
+Main *-- Triangle
+
+@enduml
