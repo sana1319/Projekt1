@@ -3,9 +3,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        System.out.println("Wybierz rodzaj figury ktora chcesz narysowac: ");
         int x;
-        while(false){
+        while(true){
             System.out.println("Wybierz rodzaj figury ktora chcesz narysowac: ");
             System.out.println("1. Prostokat");
             System.out.println("2. Trojkat");
