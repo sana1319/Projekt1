@@ -5,7 +5,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         System.out.println("Wybierz rodzaj figury ktora chcesz narysowac: ");
         int x;
-        while(true){
+        while(false){
             System.out.println("Wybierz rodzaj figury ktora chcesz narysowac: ");
             System.out.println("1. Prostokat");
             System.out.println("2. Trojkat");
